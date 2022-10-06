@@ -1,0 +1,253 @@
+name: finalproject
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  
+  cupertino_icons: ^1.0.2
+  #table_calendar: ^2.1.0  
+  curved_navigation_bar: ^1.0.3
+  font_awesome_flutter: ^10.1.0
+  video_player: ^2.4.7
+  simple_gradient_text: ^1.2.3
+  firebase_auth: ^3.9.0
+  firebase_core: ^1.22.0
+  cloud_firestore: ^3.4.8
+  get: ^4.6.5
+  get_storage: ^2.0.3
+  custom_switch: ^0.0.1
+  animated_bottom_navigation_bar: ^1.1.0
+  salomon_bottom_bar: ^3.3.1
+  animated_text_kit: ^4.2.2
+  table_calendar: ^3.0.7
+  flutter_zoom_drawer: ^3.0.3
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/splashpic.jpg
+    - assets/home.jpg
+    - assets/true.webp
+    - assets/kid.jpg
+    - assets/old.jpg
+    - assets/df.jpg
+    - assets/olds.jpg
+    - assets/young.jpg
+    - assets/kids.jpg
+    - assets/dfull.jpg
+    - assets/younge.jpg
+    - assets/bo.jpg
+    - assets/do.jpg
+    - assets/so.jpg
+    - assets/yb.jpg
+    - assets/y1.webp
+    - assets/y2.jpg
+    - assets/y3.jpg
+    - assets/y4.jpg
+    - assets/y5.jpg
+    - assets/y6.jpg
+    - assets/yd.jpg
+    - assets/ys.webp
+    - assets/y7.webp
+    - assets/y8.jpg
+    - assets/y10.jpg
+    - assets/y11.jpg
+    - assets/y9.jpg
+    - assets/kd.jpg
+    - assets/ks.jpg
+    - assets/kf.jpg
+    - assets/k1.jpg
+    - assets/k2.jpg
+    - assets/k3.jpg
+    - assets/k4.jpg
+    - assets/k5.jpg
+    - assets/k55.jpg
+    - assets/k6.jpg
+    - assets/d2.jpg
+    - assets/d3.jpg
+    - assets/d1.jpg
+    - assets/s4.jpg
+    - assets/haram.jpg
+    - assets/haramkids.jpg
+    - assets/o1.jpg
+    - assets/o2.jpg
+    - assets/o3.jpg
+    - assets/o4.jpg
+    - assets/o5.jpg
+    - assets/o6.jpg
+    - assets/o7.jpg
+    - assets/o8.jpg
+    - assets/o9.jpg
+    - assets/o10.jpg
+    - assets/o11.jpg
+    - assets/arrow.webp
+    - assets/run2.webp
+    - assets/run1.jpg
+    - assets/on1.jpg
+    - assets/on2.jpg
+    - assets/on3.jpg
+    - assets/on4.jpg
+    - assets/on5.jpg
+    - assets/on9.jpg
+    - assets/on10.jpg
+    - assets/on7.jpg
+    - assets/on11.jpg
+    - assets/on13.jpg
+    - assets/on14.jpg
+    - assets/on15.jpg
+    - assets/on16.jpg
+    - assets/on17.jpg
+    - assets/on19.jpg
+    - assets/on20.jpg
+    - assets/on21.jpg
+    - assets/on22.jpg
+    - assets/on23.jpg
+    - assets/on26.jpg
+    - assets/on27.jpg
+    - assets/on29.jpg
+    - assets/yn19.jpg
+    - assets/yn9.jpg
+    - assets/yn25.jpg
+    - assets/yn20.jpg
+    - assets/yn4.jpg
+    - assets/yn3.jpg
+    - assets/yn8.jpg
+    - assets/yn16.jpg
+    - assets/yn15.jpg
+    - assets/yn27.jpg
+    - assets/yn26.jpg
+    - assets/yn17.jpg
+    - assets/yn11.jpg
+    - assets/yn10.jpg
+    - assets/yn1.jpg
+    - assets/yn7.jpg
+    - assets/kn1.jpg
+    - assets/kn2.jpg
+    - assets/kn3.jpg
+    - assets/kn4.jpg
+    - assets/kn21.jpg
+    - assets/kn17.jpg
+    - assets/kn16.jpg
+    - assets/kn10.jpg
+    - assets/kn14.jpg
+    - assets/kn9.jpg
+    - assets/kn5.jpg
+    - assets/kn7.jpg
+    - assets/kn25.jpg
+    - assets/kn23.jpg
+    - assets/s1.jpg
+    - assets/s2.jpg
+    - assets/s3.jpg
+    - assets/s4.jpg
+    - assets/s5.jpg
+    - assets/s6.jpg
+    - assets/s7.jpg
+    - assets/s8.jpg
+    - assets/s9.jpg
+    - assets/s10.jpg
+    - assets/s11.jpg
+    - assets/s12.jpg
+    - assets/s13.jpg
+    - assets/s14.jpg
+    - assets/s15.jpg
+    - assets/pp.jpg
+    - assets/apple.webp
+    - assets/gr.jpg
+    - assets/bgr.jpg
+    - assets/s44.jpg
+    - assets/bbb.jpg
+    - assets/bbb3.jpg
+    - assets/bbb.webp
+    - assets/bbb2.jpg
+    - assets/pm.jpg
+    - assets/sp.jpg
+    - assets/white.jpg
+     
+    
+
+
+   
+    
+
+
+
+
+
+    # - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
